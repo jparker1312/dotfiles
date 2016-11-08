@@ -1,0 +1,78 @@
+[alias]
+	st = status
+	di = diff
+	co = checkout
+	ci = commit
+	br = branch
+	sta = stash
+	llog = log --date=local
+	flog = log --pretty=fuller --decorate
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lol = log --graph --decorate --oneline
+	lola = log --graph --decorate --oneline --all
+	blog = log origin/master... --left-right
+	ds = diff --staged
+	fixup = commit --fixup
+	squash = commit --squash
+	unstage = reset HEAD
+	rum = rebase master@{u}
+[core]
+	pager = less -FXRS -x2
+	excludesfile = /Users/localadmin/.gitignore_global
+[apply]
+	whitespace = nowarn
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+[branch]
+	autosetupmerge = true
+[rebase]
+	autosquash = true
+[push]
+	default = simple
+[hub]
+	protocol = https
+[credential]
+	helper = cache --timeout=36000
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[user]
+	name = Joel
+	email = jpay9@allstate,com
+[http]
+[https]
+[http]
+[https]
+[http]
+[https]
+[http]
+	proxy = http://webproxy.igslb.allstate.com:8080
+[https]
+	proxy = http://webproxy.igslb.allstate.com:8080

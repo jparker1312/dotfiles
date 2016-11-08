@@ -1,0 +1,25 @@
+- clean: ['~']
+
+- link:
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.vim/vimrc:
+        path: vim/vimrc
+        create: true
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.vim/vimrc:
+        path: vim/vimrc
+        create: true
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.vim/vimrc:
+        path: vim/vimrc
+        create: true
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.vim/vimrc:
+        path: vim/vimrc
+        create: true
+
+
