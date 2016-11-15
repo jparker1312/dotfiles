@@ -1,25 +1,31 @@
+
 - clean: ['~']
 
+- shell:
+    - brew bundle
+
 - link:
-    ~/.bash_profile: bash_profile
-    ~/.gitconfig: gitconfig
-    ~/.vim/vimrc:
-        path: vim/vimrc
-        create: true
-    ~/.bash_profile: bash_profile
-    ~/.gitconfig: gitconfig
-    ~/.vim/vimrc:
-        path: vim/vimrc
-        create: true
-    ~/.bash_profile: bash_profile
-    ~/.gitconfig: gitconfig
-    ~/.vim/vimrc:
-        path: vim/vimrc
-        create: true
-    ~/.bash_profile: bash_profile
-    ~/.gitconfig: gitconfig
-    ~/.vim/vimrc:
-        path: vim/vimrc
-        create: true
+    ~/.bash_profile:
+      force: true
+      path: bash_profile
+    ~/.git-completion.bash:
+      force: true
+      path: git-completion.bash
+    ~/.gitignore_global:
+      force: true
+      path: gitignore_global
+    ~/.inputrc:
+      force: true
+      path: inputrc
+    ~/.pryrc:
+      force: true
+      path: pryrc
+    ~/.vim:
+      force: true
+      path: vim/
+    ~/.vimrc:
+      force: true
+      path: vimrc
 
-
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
