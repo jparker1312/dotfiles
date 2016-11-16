@@ -1,4 +1,3 @@
-
 - clean: ['~']
 
 - shell:
@@ -26,6 +25,10 @@
     ~/.vimrc:
       force: true
       path: vimrc
+    ~/.bashrc:
+      force: true
+      path: bashrc
+
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
