@@ -13,22 +13,12 @@
     ~/.gitignore_global:
       force: true
       path: gitignore_global
-    ~/.inputrc:
-      force: true
-      path: inputrc
-    ~/.pryrc:
-      force: true
-      path: pryrc
     ~/.vim:
       force: true
       path: vim/
-    ~/.vimrc:
-      force: true
-      path: vimrc
     ~/.bashrc:
       force: true
       path: bashrc
-
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
